@@ -60,7 +60,7 @@ namespace ComercioArtes.Estructuras
                 lista.Add(actual.Dato);
                 actual = actual.Siguiente;
             }
-
+            return lista;
         }
     }
 }
